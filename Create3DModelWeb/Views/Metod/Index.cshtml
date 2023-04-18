@@ -1,0 +1,31 @@
+﻿@model Create3DModelWeb.Models.ValuesModel
+
+
+<div class="text-center">
+
+    <h1 class="display-4">Values</h1>
+    <p></p>
+    <form method="post" asp-controller="Metod" asp-action="CreateCub">
+    <div>
+        <label>Высота</label>
+        <div>
+            <input asp-for="width" />
+        </div>
+    </div>
+    <div>
+        <label>Ширина</label>
+        <div>
+            <input asp-for="height" />
+        </div>
+    </div>
+    <div>
+        <label>Толщина</label>
+        <div>
+            <input asp-for="thickness" />
+        </div>
+    </div>
+    <br />
+        <label>@ViewBag.Calcul</label>
+    <input class="btn btn-success" type="submit" value="Создать" />
+    </form>
+</div>

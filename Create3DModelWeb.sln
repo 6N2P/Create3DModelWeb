@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create3DModelWeb", "Create3DModelWeb\Create3DModelWeb.csproj", "{1AB51758-9485-41B2-B03B-1988F49E5DBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AB51758-9485-41B2-B03B-1988F49E5DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB51758-9485-41B2-B03B-1988F49E5DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB51758-9485-41B2-B03B-1988F49E5DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB51758-9485-41B2-B03B-1988F49E5DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14140AAA-5796-4A3A-B6B8-8E32A08BF37D}
+	EndGlobalSection
+EndGlobal
